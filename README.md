@@ -19,6 +19,7 @@ Other leg of the thermistor → GND (Arduino)
 What happens?
 
 Arduino reads the voltage at A1, converts it into temperature, and decides whether to turn on the fan, buzzer, or LED.
+
 2️⃣ Wiring the Fan (Cooling System)
 Why?
 
@@ -29,6 +30,7 @@ Fan Red (+) → D6 (PWM Pin on Arduino)
 Fan Black (-) → GND (Arduino)
 📌 If the fan runs all the time, it’s probably connected directly to 5V instead of D6.
 
+
 3️⃣ Wiring the Buzzer (Sound Alert)
 Why?
 
@@ -38,6 +40,7 @@ Connections:
 Buzzer + (Red) → D8 (Arduino Digital Output)
 Buzzer - (Black) → GND (Arduino)
 📌 If the buzzer doesn’t work, check if it’s an active buzzer (which works with just HIGH/LOW signals).
+
 
 4️⃣ Wiring the LED (Visual Alert)
 Why?
